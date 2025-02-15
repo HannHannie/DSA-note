@@ -32,5 +32,6 @@ public class delete1{
         int[] result= delete(A, x);
         System.out.println(Arrays.toString(result));
         //test test :))
+        //test 2 :)))
     }
 }
