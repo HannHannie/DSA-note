@@ -20,6 +20,8 @@ public class SelectionSort {
         }
     }
 
+
+
     //Ngược lại, theo thứ tự từ bé tới lớn nhưng sort từ phải sang trái
     public static void inversedSelectionSortt(int[] A){
         int n= A.length;
@@ -36,6 +38,9 @@ public class SelectionSort {
             }
         }
     }
+
+
+    
         //main function
     public static void main(String[] args) {
         
