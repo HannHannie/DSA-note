@@ -12,11 +12,12 @@ public class SelectionSort {
                 if(A[j]<A[minIndex]){
                     minIndex=j;
                 }
+            }
                 //Swap
                 int stored= A[minIndex];
                 A[minIndex]= A[i];
                 A[i]= stored;
-            }
+            
         }
     }
 
