@@ -5,12 +5,12 @@ import java.util.Scanner;
 
 public class SelectionSort {
     public static void selectionSort(int[] A){
-        int n= A.length;
-        for(int i=0; i< n-1; i++){
-            int minIndex= i;
-            for(int j=i+1; j<n; j++){ //j cannot start from 1 bc after a loop j is still fixed in the 1st position
-                if(A[j]<A[minIndex]){
-                    minIndex=j;
+        int n = A.length;
+        for(int i = 0; i < n - 1; i++){
+            int minIndex = i;
+            for(int j = i + 1; j < n; j++){ //j cannot start from 1 bc after a loop j is still fixed in the 1st position
+                if(A[j] < A[minIndex]){
+                    minIndex = j;
                 }
             }
                 //Swap
