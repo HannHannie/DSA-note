@@ -23,7 +23,7 @@ public class deleteDuplication {
         int[] A= {1, 2, 3, 4, 5, 2, 4, 6, 8};
         int X= 2;
         int n= A.length;
-        int[] result= deleteDup(A, n, X);
-        System.out.println("The result after deleting the duplication: "+ Arrays.toString(result));
+        // int[] result= deleteDup(A, n, X);
+        System.out.println("The result after deleting the duplication: "+ Arrays.toString(deleteDup(A, n, X)));
     }
 }
