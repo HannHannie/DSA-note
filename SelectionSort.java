@@ -4,7 +4,11 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class SelectionSort {
-
+    public static void swap(int[] arr, int a, int b){
+        int stored= arr[a];
+        arr[a] = arr[b];
+        arr[b]= stored;
+    }
     public static void selectionSort(int[] A){
         int n = A.length;
         for(int i = 0; i < n - 1; i++){
@@ -15,7 +19,7 @@ public class SelectionSort {
                 }
             }
                 //Swap
-
+                swap(A, minIndex, i);
         }
     }
 
